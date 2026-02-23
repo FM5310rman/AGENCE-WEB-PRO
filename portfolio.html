@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez nos réalisations et projets clients">
+    <meta name="keywords" content="portfolio, réalisations, projets, clients">
+    <title>Portfolio - WebPro</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">Web<span>Pro</span></a>
+            
+            <nav class="navbar">
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Accueil</a></li>
+                    <li><a href="services.html" class="nav-link">Services</a></li>
+                    <li><a href="portfolio.html" class="nav-link active">Portfolio</a></li>
+                    <li><a href="about.html" class="nav-link">À propos</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero hero-secondary">
+        <div class="container">
+            <h1 class="hero-title">Notre Portfolio</h1>
+            <p class="hero-subtitle">Découvrez nos meilleures réalisations</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section class="portfolio fade-in">
+        <div class="container">
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">Tous</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+                <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
+                <button class="filter-btn" data-filter="corporate">Corporate</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="design">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio/project1.jpg" alt="Projet 1">
+                        <div class="portfolio-overlay">
+                            <h3>Boutique Luxe</h3>
+                            <p>Design & Développement</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="ecommerce">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio/project2.jpg" alt="Projet 2">
+                        <div class="portfolio-overlay">
+                            <h3>E-commerce Mode</h3>
+                            <p>Plateforme de vente</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="corporate">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio/project3.jpg" alt="Projet 3">
+                        <div class="portfolio-overlay">
+                            <h3>Site Corporate</h3>
+                            <p>Entreprise B2B</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="design">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio/project4.jpg" alt="Projet 4">
+                        <div class="portfolio-overlay">
+                            <h3>Agence Créative</h3>
+                            <p>Portfolio créatif</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="ecommerce">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio/project5.jpg" alt="Projet 5">
+                        <div class="portfolio-overlay">
+                            <h3>Marketplace</h3>
+                            <p>Plateforme multi-vendeurs</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="corporate">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio/project6.jpg" alt="Projet 6">
+                        <div class="portfolio-overlay">
+                            <h3>Cabinet Conseil</h3>
+                            <p>Site professionnel</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section fade-in">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number" data-target="150">0</div>
+                    <p>Projets réalisés</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-target="98">0</div>
+                    <p>Clients satisfaits %</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-target="8">0</div>
+                    <p>Années d'expérience</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-target="50">0</div>
+                    <p>Équipe membres</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta fade-in">
+        <div class="container">
+            <h2>Vous aimez ce que vous voyez ?</h2>
+            <p>Contactez-nous pour discuter de votre prochain projet</p>
+            <a href="contact.html" class="btn btn-primary">Démarrer un projet</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="logo">Web<span>Pro</span></a>
+                    <p>Agence web spécialisée dans la création de sites modernes et performants.</p>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Liens rapides</h3>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Rue du Web, Paris</li>
+                        <li><i class="fas fa-phone"></i> +33 1 23 45 67 89</li>
+                        <li><i class="fas fa-envelope"></i> contact@webpro.fr</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2024 WebPro. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
